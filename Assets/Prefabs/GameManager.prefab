@@ -1,0 +1,403 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &599679340713197729
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7219921336192302419}
+  - component: {fileID: 5557953970629069949}
+  - component: {fileID: 1663019773570721784}
+  - component: {fileID: 706453116745434301}
+  - component: {fileID: 6119206656831990410}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7219921336192302419
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 599679340713197729}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.26848918, y: -0, z: -0, w: 0.9632827}
+  m_LocalPosition: {x: -104.09149, y: -0.49658388, z: 1.5077081}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5557953970629069949
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 599679340713197729}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93143fc6492654341af4b473418c2ad0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  studyGo: 0
+  saving: {fileID: 1663019773570721784}
+  timer: {fileID: 0}
+  helpPanel: {fileID: 0}
+  helpPanelFlag: 0
+  readyToSell: 0
+  buttonSell: {fileID: 0}
+  craftBurgerOblast: {fileID: 0}
+  breadBottomReady: 0
+  balance: 0
+  balanceText: {fileID: 0}
+  chequePrefab: {fileID: 0}
+  order: {fileID: 0}
+  orderGO: {fileID: 0}
+  orderReady: 0
+  orderSpawnPoint: {fileID: 0}
+  orderImage: {fileID: 0}
+  ordersPlayer:
+  - {fileID: 11400000, guid: 1e2528c328d06e840883b6044ff5a9a7, type: 2}
+  - {fileID: 11400000, guid: c66502611cddf0f44be255f4d533d388, type: 2}
+  - {fileID: 11400000, guid: 549e7c0cd346fe6438c0ac80a3e0e7ed, type: 2}
+  - {fileID: 11400000, guid: 608e8ef3a80517642aecd93bd1eb8d8e, type: 2}
+  - {fileID: 11400000, guid: 385e1a15de347fc4aac80f73c80fe6fb, type: 2}
+  - {fileID: 11400000, guid: 9782ed0799382aa4ba26aa5e9e50b2e7, type: 2}
+  - {fileID: 11400000, guid: 0676c0b31ed0a9948b2fb7add4e45be7, type: 2}
+  - {fileID: 11400000, guid: 78e8bec6af0fc584cbc91765bd2b9db9, type: 2}
+  - {fileID: 11400000, guid: 188c2bd7a4acdc240918e944c0e8bf9d, type: 2}
+  - {fileID: 11400000, guid: d05ffaf913c0cd541b06f45f0f8d45af, type: 2}
+  allOrders: []
+  balanceForDayText: {fileID: 0}
+  balanceForDay: 0
+  makingBurgerComponents: []
+  trueOrder: 0
+  breadInWorld: 0
+  topBreadInWorld: 0
+  randomMeow: []
+  buyPanel: {fileID: 0}
+  makePanel: {fileID: 0}
+  meatOblast: {fileID: 0}
+  meatReady: 0
+  oilSplash: {fileID: 0}
+  friedMeat: {fileID: 2100000, guid: 0c304ee32cbb2a04883981d7a9871bf1, type: 2}
+  burnMeat: {fileID: 2100000, guid: 2e59d882e53dc014b980c29d3ebe4afd, type: 2}
+  isFriedMeat: 0
+  isRawMeat: 0
+  isBurnMeat: 0
+  fried: 0
+  meatInPlita: 0
+  lapkiGO:
+  - {fileID: 905969878476928809, guid: 232cd7aec327f4a4aac05462840c93ef, type: 3}
+  - {fileID: 6767490498543291732, guid: 58b5657e0708fc640981061dad4790f6, type: 3}
+  - {fileID: 4027993992336581440, guid: d6f396a4b7fc0074cbc46e6a6aa4691c, type: 3}
+  - {fileID: 6044117228689258528, guid: 5bf3b53cd1a2e95418af239cd4dff2e5, type: 3}
+  - {fileID: 6789996446374897064, guid: 3fdc181db0e710041a25b771a5a52605, type: 3}
+  - {fileID: 5769903038167882100, guid: 1e32babee4748554b810986f6ec8a7c0, type: 3}
+  - {fileID: 5674797385654048494, guid: ba6e29cfc2fd0234e9eddbcd7e01ca13, type: 3}
+  - {fileID: 8933594841733520952, guid: cc5a208bee6664d48b092c1d5216b8b7, type: 3}
+  - {fileID: 441386484562763262, guid: 6c02e5f2cb20e5e47a7cadc9386def80, type: 3}
+  thisLapka: {fileID: 0}
+  lapkaLeft: {fileID: 0}
+  lapkaRight: {fileID: 0}
+  moveSpeed: 5
+  lapkaIsMoving: 0
+  isLeft: 1
+  chequePlace: {fileID: 0}
+  lapkaTimer: 0.8
+  potatoOblast: {fileID: 0}
+  friturOblast: {fileID: 0}
+  potatoInWorld: 0
+  potatoSpawned: 0
+  potatoRaw: 0
+  potatoBurn: 0
+  potatoFried: 0
+  oilSplashPotato: {fileID: 0}
+  friedPotato: {fileID: 2100000, guid: 289a75c50183db24394876329f61b541, type: 2}
+  burnPotato: {fileID: 2100000, guid: 96047a963f8e5d24f88ac0df62c6c901, type: 2}
+  packedPotato: {fileID: 1069054735885104528, guid: 8455de5e3d5eba84982d7bb578a83150, type: 3}
+  friedPotatoCheck: 0
+  potatoReady: 0
+  isRawPotato: 0
+  makeAgainButton: {fileID: 0}
+  plitaPoint: {fileID: 0}
+  noutPoint: {fileID: 0}
+  cameraGO: {fileID: 0}
+  dayOffPanel: {fileID: 0}
+  balanceTMP: {fileID: 0}
+  advPanel: {fileID: 0}
+  advTextTMP: {fileID: 0}
+  duration: 300
+  timerRunning: 0
+  timerText: {fileID: 0}
+  gastros:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  noutPokupkiPlace: {fileID: 0}
+  nextDayButton: {fileID: 0}
+  learnYesOrNoGO: {fileID: 0}
+  StudySlide:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  SlidesPanel: {fileID: 0}
+  nextDay: 0
+  nextDayIndex: 0
+  settigsPanel: {fileID: 0}
+  potatoSound: 0
+  meatSound: 0
+  tovars:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  potatoOrder: {fileID: 0}
+  potatoInOrder: 0
+  orderAdded: {fileID: 706453116745434301}
+  balanceTextNextDay: {fileID: 0}
+  rewardForDayNextDay: {fileID: 0}
+  dayCountNextDay: {fileID: 0}
+  burgersCountNextDay: {fileID: 0}
+  nextDayButtonNext: {fileID: 0}
+  dayCount: 1
+  burgersCount: 0
+  dialogue: {fileID: 6119206656831990410}
+  isBlock: 0
+  uved: {fileID: 0}
+  oblako: {fileID: 0}
+  oblakoText: {fileID: 0}
+--- !u!114 &1663019773570721784
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 599679340713197729}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 51c5d7a4824d8564684b54fe709602cf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  balance: 0
+  saladOpen: 0
+  tomatOpen: 0
+  cheeseOpen: 0
+  pikuliOpen: 0
+  onionOpen: 0
+  perecOpen: 0
+  mushroomsOpen: 0
+  potatoOpen: 0
+  gorchicaOpen: 0
+  mayonazeOpen: 0
+  ketchupOpen: 0
+  meatOpen: 0
+  bulkaOpen: 0
+  firstGame: 0
+  isPostProcessing: 0
+  saladCount: 0
+  tomatCount: 0
+  cheeseCount: 0
+  pikuliCount: 0
+  onionCount: 0
+  perecCount: 0
+  mushroomsCount: 0
+  potatoCount: 0
+  bulkaCount: 0
+  meatCount: 0
+  dayCount: 0
+--- !u!114 &706453116745434301
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 599679340713197729}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30c1d8f3beb9b40478c49549c68920a1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  GameManager: {fileID: 5557953970629069949}
+  allOrders:
+  - {fileID: 11400000, guid: 1e2528c328d06e840883b6044ff5a9a7, type: 2}
+  - {fileID: 11400000, guid: c66502611cddf0f44be255f4d533d388, type: 2}
+  - {fileID: 11400000, guid: 549e7c0cd346fe6438c0ac80a3e0e7ed, type: 2}
+  - {fileID: 11400000, guid: 608e8ef3a80517642aecd93bd1eb8d8e, type: 2}
+  - {fileID: 11400000, guid: 385e1a15de347fc4aac80f73c80fe6fb, type: 2}
+  - {fileID: 11400000, guid: 9782ed0799382aa4ba26aa5e9e50b2e7, type: 2}
+  - {fileID: 11400000, guid: 0676c0b31ed0a9948b2fb7add4e45be7, type: 2}
+  - {fileID: 11400000, guid: 78e8bec6af0fc584cbc91765bd2b9db9, type: 2}
+  - {fileID: 11400000, guid: 188c2bd7a4acdc240918e944c0e8bf9d, type: 2}
+  - {fileID: 11400000, guid: d05ffaf913c0cd541b06f45f0f8d45af, type: 2}
+  - {fileID: 11400000, guid: 3ba2054d301106147944eacecfb085fb, type: 2}
+  - {fileID: 11400000, guid: 07e17f1c456d05646af50cfe7b9cec9f, type: 2}
+  - {fileID: 11400000, guid: d346d6a39d6a7e84393a93f8d3042893, type: 2}
+  - {fileID: 11400000, guid: ac0cf1444ee725a42ac8a17407243db7, type: 2}
+  - {fileID: 11400000, guid: ef7e495f38cbfac478a6a4d038f6e006, type: 2}
+  - {fileID: 11400000, guid: a84871dea50811c469fa8352411eb008, type: 2}
+  - {fileID: 11400000, guid: aa389b1edb97c09489a785b33e005cad, type: 2}
+  - {fileID: 11400000, guid: 54e4d4dcf92c51744a7b7691bfffbc4b, type: 2}
+  - {fileID: 11400000, guid: ac95db61773ea4c409b680a3bbe4f101, type: 2}
+  - {fileID: 11400000, guid: f1e9e77ec5ff1094089e10ac0cbfda26, type: 2}
+  - {fileID: 11400000, guid: be262b23aecfa374dbe947f824f45508, type: 2}
+  - {fileID: 11400000, guid: b335d9759d5b9fc4bbb4b16e3ec6279f, type: 2}
+  - {fileID: 11400000, guid: 785d604b548dcd9438c033240b9ddf79, type: 2}
+  - {fileID: 11400000, guid: 288125d817c581248ad8e825fd7f93af, type: 2}
+  - {fileID: 11400000, guid: a51b7a723175bf043a678b1b12b5d4f9, type: 2}
+  - {fileID: 11400000, guid: c5f804e6e4c4c914f839acae1c45265a, type: 2}
+  - {fileID: 11400000, guid: 9159948e962e651438a4d29d6da81a8d, type: 2}
+  - {fileID: 11400000, guid: 487bbe448e9c42f469cf8c2bccfe6a1e, type: 2}
+  - {fileID: 11400000, guid: 5055ad01820ce914ea554e4a499ffb98, type: 2}
+  - {fileID: 11400000, guid: c8e9c57b26086cf479c22a6a18640f0e, type: 2}
+  - {fileID: 11400000, guid: 6e567148169a55f4291a112c1072a3bf, type: 2}
+  - {fileID: 11400000, guid: ce4589e439b54fa4e81e0800c3bb0f0a, type: 2}
+  - {fileID: 11400000, guid: ae9b2f83e4e1d6945bffa2b8de4d077e, type: 2}
+  - {fileID: 11400000, guid: c97d9f5603c10da47b1f043eafb4965f, type: 2}
+  - {fileID: 11400000, guid: e13dbfeeaf43419409d155208932f54f, type: 2}
+  - {fileID: 11400000, guid: 4e15d5c98c77b6747bcb4959da887a65, type: 2}
+  - {fileID: 11400000, guid: 7d8d6dd02598807479e8834c32b6ebbf, type: 2}
+  - {fileID: 11400000, guid: 3b2b13f05dc9fe74597ef6c93d504be7, type: 2}
+  - {fileID: 11400000, guid: cbeae6d514940c84ea957832e9e5200f, type: 2}
+  - {fileID: 11400000, guid: 9313bfc1fa1d45c4e8b16c83906c4392, type: 2}
+  - {fileID: 11400000, guid: 4d5cf89f8b6a4d744b28fb8294d9d9ab, type: 2}
+  - {fileID: 11400000, guid: b7a094575ea1a84408a0085e44203f7d, type: 2}
+  - {fileID: 11400000, guid: 7d445a29eb2875149ae3c9227c2c78d9, type: 2}
+  - {fileID: 11400000, guid: 8b468267f4018df43b21a4ab9d2e7311, type: 2}
+  - {fileID: 11400000, guid: 72fb39d858b789e4f8d0b14dbfe5f7f2, type: 2}
+  - {fileID: 11400000, guid: df931f2a30e045c46b4c1addd41e4f56, type: 2}
+  - {fileID: 11400000, guid: fb097971d0233b947bb396bd530d8abb, type: 2}
+  - {fileID: 11400000, guid: e970a69deb937f9488e7e6df30876837, type: 2}
+  - {fileID: 11400000, guid: ed4fef00daf08514ba5c797354a12502, type: 2}
+  - {fileID: 11400000, guid: c0dbf4b4f697f7d40ac3e3e41aeba1ad, type: 2}
+  - {fileID: 11400000, guid: 46e3cde0b8f22db449d1f37d5d5630f4, type: 2}
+  - {fileID: 11400000, guid: 156372cbdfb4617488128a53aa931b77, type: 2}
+  - {fileID: 11400000, guid: 0f15dc474a6efc241bfe311e22e764ac, type: 2}
+  - {fileID: 11400000, guid: faabddb9664229345a439abae0f248fc, type: 2}
+--- !u!114 &6119206656831990410
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 599679340713197729}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8e359489c9e1c4543ad7379416277a93, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  typingSpeed: 0.03
+  dialogues:
+  - "\u0414\u043E\u0431\u0440\u043E \u043F\u043E\u0436\u0430\u043B\u043E\u0432\u0430\u0442\u044C
+    \u0432 \u0440\u0435\u0441\u0442\u043E\u0440\u0430\u043D \u041A\u043E\u0442\u043E
+    - \u0431\u0443\u0440\u0433\u0435\u0440\u044B! "
+  - "\u041C\u0435\u043D\u044F \u0437\u043E\u0432\u0443\u0442 \u0422\u0438\u043C\u043C\u0438,
+    \u044F \u043F\u0440\u043E\u0448\u043B\u044B\u0439 \u0432\u043B\u0430\u0434\u0435\u043B\u0435\u0446
+    \u044D\u0442\u043E\u0433\u043E \u0440\u0435\u0441\u0442\u043E\u0440\u0430\u043D\u0430,
+    \u0440\u0430\u0434 \u0441 \u0442\u043E\u0431\u043E\u0439 \u043F\u043E\u0437\u043D\u0430\u043A\u043E\u043C\u0438\u0442\u044C\u0441\u044F."
+  - "\u041D\u0435\u0434\u0430\u0432\u043D\u043E \u0442\u044B \u0432\u044B\u0438\u0433\u0440\u0430\u043B
+    \u0432 \u043A\u043E\u0442\u043E - \u043B\u043E\u0442\u0435\u0440\u0435\u0435
+    \u043A\u043E\u0442\u043E\u0440\u0443\u044E \u044F \u0443\u0441\u0442\u0440\u0430\u0438\u0432\u0430\u043B
+    \u0447\u0442\u043E\u0431\u044B \u0440\u0430\u0437\u044B\u0433\u0440\u0430\u0442\u044C
+    \u0441\u0432\u043E\u0439 \u0440\u0435\u0441\u0442\u043E\u0440\u0430\u043D \u0438
+    \u043F\u0435\u0440\u0435\u0434\u0430\u0442\u044C \u0440\u0435\u043C\u0435\u0441\u043B\u043E
+    \u0431\u0443\u0440\u0433\u0435\u0440\u043E\u0432 \u0434\u0430\u043B\u044C\u0448\u0435."
+  - "\u041A \u0441\u043E\u0436\u0430\u043B\u0435\u043D\u0438\u044E \u043D\u0430\u0441\u043B\u0435\u0434\u043D\u0438\u043A\u0430
+    \u0443 \u043C\u0435\u043D\u044F \u043D\u0435\u0442, \u043F\u043E\u044D\u0442\u043E\u043C\u0443
+    \u0447\u0442\u043E\u0431\u044B \u0440\u0435\u0441\u0442\u043E\u0440\u0430\u043D
+    \u043D\u0435 \u043F\u0440\u043E\u043F\u0430\u0434\u0430\u043B \u044F \u043F\u0435\u0440\u0435\u0434\u0430\u043B
+    \u0435\u0433\u043E \u0447\u0435\u0440\u0435\u0437 \u0442\u0430\u043A\u0443\u044E
+    \u043B\u043E\u0442\u0435\u0440\u0435\u044E."
+  - "\u041F\u043E\u0437\u0434\u0440\u0430\u0432\u043B\u044F\u044E \u0441 \u043F\u043E\u0431\u0435\u0434\u043E\u0439!
+    \u0427\u0442\u043E\u0431\u044B \u0442\u0435\u0431\u0435 \u0431\u044B\u043B\u043E
+    \u043B\u0435\u0433\u0447\u0435 \u043E\u0441\u0432\u043E\u0438\u0442\u044C\u0441\u044F,
+    \u043F\u0435\u0440\u0432\u043E\u0435 \u0432\u0440\u0435\u043C\u044F \u044F \u0431\u0443\u0434\u0443
+    \u043F\u043E\u043C\u043E\u0433\u0430\u0442\u044C \u0442\u0435\u0431\u0435 \u0432\u043E
+    \u0432\u0441\u0435\u043C."
+  - "\u041D\u0430\u0447\u0435\u043C \u043E\u0431\u0443\u0447\u0435\u043D\u0438\u0435.
+    \u0427\u0442\u043E\u0431\u044B \u043F\u0440\u0438\u0433\u043E\u0442\u043E\u0432\u0438\u0442\u044C
+    \u0431\u0443\u0440\u0433\u0435\u0440 \u0434\u043B\u044F \u043D\u0430\u0447\u0430\u043B\u0430
+    \u043D\u0443\u0436\u043D\u043E \u043F\u043E\u043B\u043E\u0436\u0438\u0442\u044C
+    \u043D\u0438\u0436\u043D\u044E\u044E \u0447\u0430\u0441\u0442\u044C \u0431\u0443\u043B\u043E\u0447\u043A\u0438
+    \u043D\u0430 \u0441\u0442\u043E\u043B, \u0437\u0430\u0442\u0435\u043C \u0434\u043E\u0431\u0430\u0432\u043B\u044F\u0439
+    \u043A\u043E\u043C\u043F\u043E\u043D\u0435\u043D\u0442\u044B, \u043B\u0438\u0431\u043E
+    \u0436\u0430\u0440\u044C \u043A\u043E\u0442\u043B\u0435\u0442\u0443."
+  - "\u0414\u043B\u044F \u0442\u043E\u0433\u043E \u0447\u0442\u043E\u0431\u044B \u043C\u044F\u0441\u043E
+    \u043F\u043E\u043B\u0443\u0447\u0438\u043B\u043E\u0441\u044C \u043F\u0440\u043E\u0436\u0430\u0440\u0435\u043D\u043D\u044B\u043C
+    \u043E\u0431\u044F\u0437\u0430\u0442\u0435\u043B\u044C\u043D\u043E \u0434\u043E\u0436\u0434\u0438\u0441\u044C
+    \u043F\u043E\u043A\u0430 \u043D\u0430 \u043D\u0435\u043C \u043F\u043E\u044F\u0432\u0438\u0442\u0441\u044F
+    \u043A\u0440\u0430\u0441\u0438\u0432\u044B\u0439 \u0446\u0432\u0435\u0442, \u0437\u0430\u0442\u0435\u043C
+    \u043C\u043E\u0436\u0435\u0448\u044C \u0434\u043E\u0431\u0430\u0432\u043B\u044F\u0442\u044C
+    \u0435\u0433\u043E \u0432 \u0431\u0443\u0440\u0433\u0435\u0440."
+  - "\u0427\u0442\u043E\u0431\u044B \u0437\u0430\u0432\u0435\u0440\u0448\u0438\u0442\u044C
+    \u0433\u043E\u0442\u043E\u0432\u043A\u0443 \u0437\u0430\u043A\u0440\u043E\u0439
+    \u0431\u0443\u0440\u0433\u0435\u0440 \u0432\u0435\u0440\u0445\u0435\u0439 \u0447\u0430\u0441\u0442\u044C\u044E
+    \u0431\u0443\u043B\u043E\u0447\u043A\u0438, \u0442\u0435\u043F\u0435\u0440\u044C
+    \u0442\u044B \u043C\u043E\u0436\u0435\u0448\u044C \u043F\u0440\u043E\u0434\u0430\u0432\u0430\u0442\u044C
+    \u0431\u0443\u0440\u0433\u0435\u0440 \u043A\u043E\u0442\u0435\u0439\u043A\u0435,
+    \u043B\u0438\u0431\u043E \u043F\u0440\u0438\u0433\u043E\u0442\u043E\u0432\u0438\u0442\u044C
+    \u0435\u0433\u043E \u0437\u0430\u043D\u043E\u0432\u043E \u0435\u0441\u043B\u0438
+    \u0441\u043B\u0443\u0447\u0430\u0439\u043D\u043E \u043E\u0448\u0438\u0431\u0441\u044F
+    \u0432 \u0440\u0435\u0446\u0435\u043F\u0442\u0435."
+  - "\u041A\u0441\u0442\u0430\u0442\u0438 \u043F\u0440\u043E \u0440\u0435\u0446\u0435\u043F\u0442,
+    \u0442\u0432\u043E\u0438 \u043F\u043E\u0441\u0435\u0442\u0438\u0442\u0435\u043B\u0438
+    \u0432\u044B\u0431\u0438\u0440\u0430\u044E\u0442 \u0432 \u043C\u0435\u043D\u044E
+    \u0431\u0443\u0440\u0433\u0435\u0440, \u043A\u043E\u0442\u043E\u0440\u044B\u0439
+    \u0445\u043E\u0442\u044F\u0442 \u043F\u043E\u043A\u0443\u0448\u0430\u0442\u044C
+    \u0438 \u0437\u0430\u043F\u0438\u0441\u044B\u0432\u0430\u044E\u0442 \u043D\u0430
+    \u0431\u0443\u043C\u0430\u0436\u043A\u0443, \u043A\u043E\u0442\u043E\u0440\u0443\u044E
+    \u043F\u0435\u0440\u0435\u0434\u0430\u044E\u0442 \u0442\u0435\u0431\u0435 \u0447\u0440\u0435\u0437
+    \u043E\u043A\u043E\u0448\u043A\u043E \u0441\u043B\u0435\u0432\u0430."
+  - "\u0427\u0442\u043E\u0431\u044B \u043F\u0440\u0430\u0432\u0438\u043B\u044C\u043D\u043E
+    \u043F\u0440\u0438\u0433\u043E\u0442\u043E\u0432\u0438\u0442\u044C \u0431\u0443\u0440\u0433\u0435\u0440
+    \u0438 \u043F\u043E\u0440\u0430\u0434\u043E\u0432\u0430\u0442\u044C \u0433\u043E\u0441\u0442\u044F
+    \u043E\u0431\u044F\u0437\u0430\u0442\u0435\u043B\u044C\u043D\u043E \u0441\u043C\u043E\u0442\u0440\u0438
+    \u043D\u0430 \u0437\u0430\u043A\u0430\u0437 \u0437\u0430\u043F\u0438\u0441\u0430\u043D\u043D\u044B\u0439
+    \u0432 \u0431\u0443\u043C\u0430\u0436\u043A\u0443, \u044F \u0432\u0441\u0435\u0433\u0434\u0430
+    \u043D\u0430\u0437\u044B\u0432\u0430\u043B \u0435\u0435 \u0447\u0435\u043A\u043E\u043C,
+    \u0442\u0430\u043A \u0447\u0442\u043E \u0432 \u0434\u0430\u043B\u044C\u043D\u0435\u0439\u0448\u0435\u043C
+    \u0431\u0443\u0434\u0443 \u043D\u0430\u0437\u044B\u0432\u0430\u0442\u044C \u0435\u0435
+    \u0442\u0430\u043A, \u0435\u0441\u043B\u0438 \u0442\u044B \u043D\u0435 \u043F\u0440\u043E\u0442\u0438\u0432"
+  - "\u0412\u0440\u043E\u0434\u0435 \u044F \u0440\u0430\u0441\u0441\u043A\u0430\u0437\u0430\u043B
+    \u0442\u0435\u0431\u0435 \u0432\u0441\u0451 \u0441\u0430\u043C\u043E\u0435 \u0433\u043B\u0430\u0432\u043D\u043E\u0435,
+    \u0435\u0449\u0435 \u0432\u0441\u0442\u0440\u0435\u0442\u0438\u043C\u0441\u044F
+    \u043C\u043E\u0439 \u0434\u0440\u0443\u0433, \u0443\u0434\u0430\u0447\u0438 \u0442\u0435\u0431\u0435
+    \u0432 \u043F\u0440\u043E\u0434\u0430\u0436\u0438 \u043A\u043E\u0442\u043E -
+    \u0431\u0443\u0440\u0433\u0435\u0440\u043E\u0432!"
+  textComponent: {fileID: 0}
+  gameManager: {fileID: 5557953970629069949}
+  animator: {fileID: 0}
+  dialogueManager: {fileID: 0}
+  panel: {fileID: 0}
+  isDialogueStart: 0
+  isComponentsDialogue: 0
+  isDialogueDefault: 0

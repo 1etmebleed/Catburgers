@@ -1,0 +1,167 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &2853382113793643705
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 918599c2feb1a274e95b38695696efdd, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 4.0168242
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 918599c2feb1a274e95b38695696efdd, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.32133844
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 918599c2feb1a274e95b38695696efdd, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.050902724
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 918599c2feb1a274e95b38695696efdd, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071067
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 918599c2feb1a274e95b38695696efdd, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 918599c2feb1a274e95b38695696efdd, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 918599c2feb1a274e95b38695696efdd, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 918599c2feb1a274e95b38695696efdd, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 918599c2feb1a274e95b38695696efdd, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 918599c2feb1a274e95b38695696efdd, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 918599c2feb1a274e95b38695696efdd, type: 3}
+      propertyPath: m_Name
+      value: gorchica
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 918599c2feb1a274e95b38695696efdd, type: 3}
+      propertyPath: m_TagString
+      value: burger
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 918599c2feb1a274e95b38695696efdd, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2949643637969092450}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 918599c2feb1a274e95b38695696efdd, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2342653940921595475}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 918599c2feb1a274e95b38695696efdd, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 4402483819540407067}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 918599c2feb1a274e95b38695696efdd, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 6310335172405840552}
+  m_SourcePrefab: {fileID: 100100000, guid: 918599c2feb1a274e95b38695696efdd, type: 3}
+--- !u!1 &3123341156223724008 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 918599c2feb1a274e95b38695696efdd, type: 3}
+  m_PrefabInstance: {fileID: 2853382113793643705}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2949643637969092450
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3123341156223724008}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 112899e1d1631494796a493a47eb19d3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  componentTag: "\u0433\u043E\u0440\u0447\u0438\u0446\u0430"
+  needName: 1
+  isBread: 0
+  isBreadTop: 0
+  isMeat: 0
+  gameManager: {fileID: 0}
+--- !u!54 &2342653940921595475
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3123341156223724008}
+  serializedVersion: 4
+  m_Mass: 0.2
+  m_Drag: 0
+  m_AngularDrag: 0.04
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!65 &4402483819540407067
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3123341156223724008}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.0022847462, y: 0.0023996767, z: 0.00007400216}
+  m_Center: {x: 0.000015063956, y: 0.00001007773, z: 0.000032448927}
+--- !u!65 &6310335172405840552
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3123341156223724008}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.0022847462, y: 0.0023996767, z: 0.00006404056}
+  m_Center: {x: 0.000015063968, y: 0.000010077723, z: 0.00003202028}

@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5372f52865200ec4880b7772c6ed5fe8, type: 3}
+  m_Name: order49
+  m_EditorClassIdentifier: 
+  orderName: "\u0411\u0443\u0440\u0433\u0435\u0440 \u043F\u0438\u043A\u0430\u043D\u0442\u043D\u044B\u0439
+    \u041C"
+  components:
+  - "\u043A\u043E\u0442\u043B\u0435\u0442\u0430"
+  - "\u0433\u0440\u0438\u0431\u044B"
+  - "\u043A\u0440\u0430\u0441\u043D\u044B\u0439 \u043F\u0435\u0440\u0435\u0446"
+  - "\u043C\u0430\u0439\u043E\u043D\u0435\u0437"
+  withPotato: 0
+  sprite: {fileID: 21300000, guid: b44a7bf7b9e6deb459f5399068b9ce32, type: 3}
+  salad: 0
+  tomat: 0
+  cheese: 0
+  pikuli: 0
+  onion: 0
+  perec: 0
+  mushrooms: 0
+  potato: 0

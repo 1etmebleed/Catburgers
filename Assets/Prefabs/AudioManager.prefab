@@ -1,0 +1,166 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6540776546278612998
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6780587558116362093}
+  - component: {fileID: 8595744031706684888}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6780587558116362093
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6540776546278612998}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.26848918, y: 0, z: -0, w: 0.9632827}
+  m_LocalPosition: {x: 169.96375, y: 279.17694, z: -166.77156}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8595744031706684888
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6540776546278612998}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d8530596bf618ef48885d2e2a31d996c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: orderCreate
+    clip: {fileID: 8300000, guid: 17aac741b8ee6a344a9cf6a254a57cfb, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+    mixerGroup: {fileID: 714689372241474605, guid: d9a2a18b83adb2f43926e6541e1dbb93, type: 2}
+  - name: soundtrack
+    clip: {fileID: 8300000, guid: fdedec5ed8a6bbb4abeefca98b9853e7, type: 3}
+    volume: 0.624
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+    mixerGroup: {fileID: -2183651102953748369, guid: d9a2a18b83adb2f43926e6541e1dbb93, type: 2}
+  - name: meow1
+    clip: {fileID: 8300000, guid: fe31200a7e7d9c14e950ed27625a457f, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+    mixerGroup: {fileID: 714689372241474605, guid: d9a2a18b83adb2f43926e6541e1dbb93, type: 2}
+  - name: meow2
+    clip: {fileID: 8300000, guid: c84c0571fe871e642b13c97c67eaa54a, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+    mixerGroup: {fileID: 714689372241474605, guid: d9a2a18b83adb2f43926e6541e1dbb93, type: 2}
+  - name: meow3
+    clip: {fileID: 8300000, guid: 504151b1743703647800f049a9ecada8, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+    mixerGroup: {fileID: 714689372241474605, guid: d9a2a18b83adb2f43926e6541e1dbb93, type: 2}
+  - name: money
+    clip: {fileID: 8300000, guid: 1504bdcd94f12354396cfb9c7b54cbc5, type: 3}
+    volume: 0.322
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+    mixerGroup: {fileID: 714689372241474605, guid: d9a2a18b83adb2f43926e6541e1dbb93, type: 2}
+  - name: friedMeat
+    clip: {fileID: 8300000, guid: 53b2e3918c3a00e49aaf8c3c5fcff99a, type: 3}
+    volume: 0.441
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+    mixerGroup: {fileID: 714689372241474605, guid: d9a2a18b83adb2f43926e6541e1dbb93, type: 2}
+  - name: gastroClick
+    clip: {fileID: 8300000, guid: 26b26147230668d409ef63962c4e19e4, type: 3}
+    volume: 0.441
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+    mixerGroup: {fileID: 714689372241474605, guid: d9a2a18b83adb2f43926e6541e1dbb93, type: 2}
+  - name: gastroBlock
+    clip: {fileID: 8300000, guid: e7adf6ab8e7d59549b31ca45306575c7, type: 3}
+    volume: 0.349
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+    mixerGroup: {fileID: 714689372241474605, guid: d9a2a18b83adb2f43926e6541e1dbb93, type: 2}
+  - name: potato
+    clip: {fileID: 8300000, guid: fab583c89cbbcd948bf08b8be88d7278, type: 3}
+    volume: 0.32
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+    mixerGroup: {fileID: 714689372241474605, guid: d9a2a18b83adb2f43926e6541e1dbb93, type: 2}
+  - name: sauce
+    clip: {fileID: 8300000, guid: 4b76795bf9e5df64f8319cd85b291470, type: 3}
+    volume: 0.524
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+    mixerGroup: {fileID: 714689372241474605, guid: d9a2a18b83adb2f43926e6541e1dbb93, type: 2}
+  - name: uved1
+    clip: {fileID: 8300000, guid: d409f24ca6a34f54391cf6f88d2c55d5, type: 3}
+    volume: 0.68
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+    mixerGroup: {fileID: 714689372241474605, guid: d9a2a18b83adb2f43926e6541e1dbb93, type: 2}
+  - name: uved2
+    clip: {fileID: 8300000, guid: e8dd42ca0c2df9c4493adbbdad306b3b, type: 3}
+    volume: 0.69
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+    mixerGroup: {fileID: 714689372241474605, guid: d9a2a18b83adb2f43926e6541e1dbb93, type: 2}
+  - name: uved3
+    clip: {fileID: 8300000, guid: 33d168543b625cc4ea54f5dc68e70247, type: 3}
+    volume: 0.76
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+    mixerGroup: {fileID: 714689372241474605, guid: d9a2a18b83adb2f43926e6541e1dbb93, type: 2}
+  - name: click
+    clip: {fileID: 8300000, guid: 2fc6b0d3340e70a438f6cfd11e3ee31f, type: 3}
+    volume: 0.524
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+    mixerGroup: {fileID: 714689372241474605, guid: d9a2a18b83adb2f43926e6541e1dbb93, type: 2}
+  - name: Dialogue
+    clip: {fileID: 8300000, guid: 292b237d951deaa4da49f1b78ac337e7, type: 3}
+    volume: 0.524
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+    mixerGroup: {fileID: 714689372241474605, guid: d9a2a18b83adb2f43926e6541e1dbb93, type: 2}
+  - name: timer
+    clip: {fileID: 8300000, guid: ddd4c88d262df4248a4716c5f4bdd061, type: 3}
+    volume: 0.27
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+    mixerGroup: {fileID: 714689372241474605, guid: d9a2a18b83adb2f43926e6541e1dbb93, type: 2}
